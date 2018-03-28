@@ -1,0 +1,22 @@
+Number number_SMA_DCVermogenA "DC Vermogen A [%.0f W]"    <solarplant>  (grp_SMA)
+Number number_SMA_DCVermogenB "DC Vermogen B [%.0f W]"    <solarplant>  (grp_SMA)
+
+Number number_SMA_DCSpanningA "DC Spanning A [%.2f V]"    <solarplant>  (grp_SMA)
+Number number_SMA_DCSpanningB "DC Spanning B [%.2f V]"    <solarplant>  (grp_SMA)
+
+Number number_SMA_DCStroomA "DC Stroom A [%.3f A]"    <solarplant>  (grp_SMA)
+Number number_SMA_DCStroomB "DC Stroom B [%.3f A]"    <solarplant>  (grp_SMA)
+
+Number number_SMA_ACVermogen "AC Vermogen [%.0f W]"    <energy>  (grp_SMA)
+Number number_SMA_ACNetfrequentie "AC Netfrequentie [%.2f Hz]"    <energy>  (grp_SMA)
+
+Number number_SMA_ACFasestroomFaseL1 "AC Fasestroom L1 [%.3f A]"    <energy>  (grp_SMA)
+Number number_SMA_ACFasespanningFaseL1 "AC Fasespanning L1 [%.2f V]"    <energy>  (grp_SMA)
+
+//Number number_SMA_ACPVOpwekkingVermogenPVOpwekking "AC PV Opwekking Totaal [%.0f W]"    <chart>
+
+
+
+Number number_SMA_DayYield "Dagopbrengst [%.3f kWh]"    <chart>
+Number number_SMA_DayYieldEur "Dagopbrengst [%.2f EUR]"  <piggybank>
+
