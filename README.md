@@ -24,4 +24,4 @@ The equivalent cURL command for this request and getting the JSON is described i
 
 The JSON can be parsed with JSONPath or similar tools to extract all values.
 
-// insert ref to file with JSON paths
+https://github.com/hyperbart/SMAnitoring/blob/master/JSONParameterValue
