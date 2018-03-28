@@ -1,0 +1,1 @@
+Thing exec:command:smajson [command="curl --data-binary {\"destDev\":[]} http://W.X.Y.Z/dyn/getAllOnlValues.json?sid=XXXXXXXXXXXXXXXX", interval=3, timeout=15]
