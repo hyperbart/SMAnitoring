@@ -1,0 +1,19 @@
+//DC Values
+
+$.result.*.6380_40251E00.1[0].val   "DC Power String A"
+$.result.*.6380_40251E00.1[1].val   "DC Power String B"
+$.result.*.6380_40451F00.1[0].val   "DC Voltage String A"       (divide this raw value by 1000 to get Amps)
+$.result.*.6380_40451F00.1[1].val   "DC Voltage String B"       (divide this raw value by 1000 to get Amps)
+$.result.*.6380_40452100.1[0].val   "DC Current String A"       (divide this raw value by 100 to get Volts)
+$.result.*.6380_40452100.1[1].val   "DC Current String B"       (divide this raw value by 100 to get Volts)
+
+
+//AC Values
+$.result.*.6100_40263F00.1[0].val   "AC Power"
+$.result.*.6100_00465700.1[0].val   "AC Netfrequency"           (divide this raw value by 100 to get Hz)
+$.result.*.6100_00464800.1[0].val   "AC Voltage Phase L1"
+$.result.*.6100_40465300.1[0].val   "AC Current Phase L1"       (divide this raw value by 1000 to get Amps)
+
+
+//Yields
+$.result.*.6400_00262200.1[0].val   "Day Yield in kWh"          (divide this raw value by 1000 to get kWh)
